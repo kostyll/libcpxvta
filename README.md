@@ -5,6 +5,6 @@ An easy to use windows library, based on FFmpeg, to convert videos to audio file
 
 The DLL exports only one function:
 
-* int cpxvta_convert(const char* inputFileName, const char* outputFileName, ConvertSettings* settings, NotifyProgressCallback callback) 
+    int cpxvta_convert(const char* inputFileName, const char* outputFileName, ConvertSettings* settings, NotifyProgressCallback callback) 
 
 I wrote a [blog article]http://www.cpawelzik.com/2013/11/libcpxvta/ that explains how to use the library with .NET. 
