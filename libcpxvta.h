@@ -37,6 +37,6 @@ typedef void (*NotifyProgressCallback) (int progress);
 // Export functions 
 #define DllExport extern "C" __declspec(dllexport)
 
-DllExport int bork_convert(const char* inputFileName, const char* outputFileName, ConvertSettings* settings, NotifyProgressCallback callback); 
+DllExport int cpxvta_convert(const char* inputFileName, const char* outputFileName, ConvertSettings* settings, NotifyProgressCallback callback); 
 
 #endif // _LIBCPXVTA_H_
